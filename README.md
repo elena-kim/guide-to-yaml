@@ -55,8 +55,6 @@ TBD.....
 
 <br />
 
-***
-
 ## _How to use Yaml?_
 
 <br />

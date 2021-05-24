@@ -39,19 +39,28 @@ You can always share information with us and we are looking forward to it.
   </thead>
   <tbody>
     <tr>
-      <td>JavaScript Object Notation</td>
-      <td>Tom's Obvious, Minimal Language</td>
-      <td>Extensible Markup Language</td>
+      <td align="center">JavaScript Object Notation</td>
+      <td align="center">Tom's Obvious, Minimal Language</td>
+      <td align="center">Extensible Markup Language</td>
     </tr>
     <tr>
       <td align="center"><img src="https://user-images.githubusercontent.com/74305823/118442487-9e279800-b725-11eb-99e5-e6b9925adbf9.png"/></td>
       <td align="center"><img src="https://user-images.githubusercontent.com/74305823/118442671-d7600800-b725-11eb-813a-d1bc832b763e.png" width="100"/></td>
       <td align="center"><img src="https://user-images.githubusercontent.com/74305823/118442721-ea72d800-b725-11eb-936c-bb407435f36e.png" width="150"/></td>
     </tr>
+    <tr>
+      <td>
+        YAML has many additional features lacking in JSON, including comments, extensible data types, relational anchors, strings without quotation marks, and mapping types preserving key order.
+      </td>
+      <td>
+        YAML is much more complex compared to TOML - the YAML specification was pointed out to have 23,449 words, while the TOML specification had only 3,339 words.
+      </td>
+      <td>
+        YAML lacks the notion of tag attributes that are found in XML. And YAML itself does not have XML's language-defined document schema descriptors that allow, for example, a document to self-validate. 
+      </td>
+    </tr>
   </tbody>
 </table>
-
-TBD.....
 
 <br />
 

@@ -164,16 +164,51 @@ Black Widow:
         Marvel Studios' "Shang-Chi and The Legend of The Ten Rings" stars Simu Liu as Shang-Chi, who must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization. 
         The film also stars Tony Leung as Wenwu, Awkwafina as Shang-Chi's friend Katy and Michelle Yeoh as Jiang Nan, as well as Fala Chen, Meng'er Zhang, Florian Munteanu and Ronny Chieng.
 ```
+<br />
 
 ### Advanced Features
 #### `Indented delimiting`
+Because YAML primarily relies on outline indentation for structure, it is especially resistant to delimiter collision. YAML's insensitivity to quotation marks and braces in scalar values means one may embed XML, JSON or even YAML documents inside a YAML document by simply indenting it in a block literal (using `|` or `>`).
+```yaml
+message: |
+
+        <blockquote style="font: italic 1em serif">
+        <p>"Three is always greater than two,
+           even for large values of two"</p>
+        <p>--Author Unknown</p>
+        </blockquote>
+```
 
 #### `Comments`
+```yaml
+# whole line comment
+Item # inline comment
+```
 
 #### `Anchor and Alias`
+Node anchors mark a node for future reference, which allow us to reuse the node. To mark a node we use the `&` character, and to reference it we use `*`.
+```yaml
+people:
+    - first: &Elena
+        name: Elena
+        last-name: Kim
+        age: 25
+    - second: &James
+        name: James
+        last-name: Lee
+        age: 35
+        
+one: *Elena
+two: *James
+```
 
 #### `Explicit type`
-
+YAML autodetects the datatype of the entity, but sometimes we can cast the datatype explicitly by including the type before the value preceded by `!!`.
+```yaml
+explicit-int: !!int 3.2    # an integer
+explicit-str: !!str 30.25  # a string
+explicit-bool: !!bool yes  # a boolean
+```
 <br />
 
 ## _YamlDotNet_

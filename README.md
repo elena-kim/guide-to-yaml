@@ -69,7 +69,7 @@ You can always share information with us and we are looking forward to it.
 - [Advanced Features](#advanced-features)
 
 ### Basic Syntax
-### `String`
+#### `String`
 ```yaml
 # string without quotes
 title : The Easiest YAML
@@ -85,7 +85,7 @@ Demons : |
     Are all made of gold
 ```
 
-### `Numbers`
+#### `Numbers`
 ```yaml
 # integer
 count: 7
@@ -97,7 +97,7 @@ price: 32.05
 total: 4.5e+4
 ```
 
-### `Boolean`
+#### `Boolean`
 ```yaml
 isDarkMode: false
 isDarkMode: False
@@ -106,7 +106,7 @@ isDarkMode: FALSE
 > **true**: &nbsp; `y`, `Y`, `Yes`, `YES`, `true`, `True`, `TRUE`, `on`, `On`, `ON`  
 > **false**: &nbsp; `n`, `N`, `No`, `NO`, `false`, `False`, `FALSE`, `off`, `Off`, `OFF`
 
-### `Null`
+#### `Null`
 ```yaml
 username: 
 username: ~
@@ -115,7 +115,7 @@ username: Null
 username: NULL
 ```
 
-### `Date & Timestamp`
+#### `Date & Timestamp`
 ```yaml
 date: 2021-05-24
 canonical: 2021-05-24T02:59:43.1Z
@@ -123,7 +123,7 @@ valid iso8601: 2021-05-24t21:59:43.10-05:00
 space separated: 2021-05-24 21:59:43.10 -5
 ```
 
-### `Sequence`
+#### `Sequence`
 ```yaml
 # using hyphens
 people:
@@ -135,7 +135,7 @@ people:
 people: [Elena, James, Olivia]
 ```
 
-### `Nested Value`
+#### `Nested Value`
 ```yaml
 Black Widow:
     director: Cate Shortland
@@ -146,7 +146,7 @@ Black Widow:
         Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.
 ```
 
-### `List of Objects`
+#### `List of Objects`
 ```yaml
 - Black Widow:
     director: Cate Shortland
@@ -164,6 +164,7 @@ Black Widow:
         Marvel Studios' "Shang-Chi and The Legend of The Ten Rings" stars Simu Liu as Shang-Chi, who must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization. 
         The film also stars Tony Leung as Wenwu, Awkwafina as Shang-Chi's friend Katy and Michelle Yeoh as Jiang Nan, as well as Fala Chen, Meng'er Zhang, Florian Munteanu and Ronny Chieng.
 ```
+<br />
 
 ### Advanced Features
 
@@ -171,7 +172,6 @@ Black Widow:
 
 
 ## _YamlDotNet_
-[YamlDotNet Github](https://github.com/aaubry/YamlDotNet)
 
 <br />
 

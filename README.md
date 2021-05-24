@@ -65,6 +65,77 @@ You can always share information with us and we are looking forward to it.
 <br />
 
 ## _How to use Yaml?_
+- [Basic Syntax](#basic-syntax)
+- [Advanced Features](#advanced-features)
+
+### Basic Syntax
+### `String`
+```yaml
+# string without quotes
+title : The Easiest YAML
+
+# string with quotes
+title : 'The Easiest YAML'
+
+# multiline string
+Demons : |
+    When the days are cold
+    And the cards all fold
+    And the saints we see
+    Are all made of gold
+```
+
+### `Numbers`
+```yaml
+# integer
+count: 7
+
+# float
+price: 32.05
+
+# scientific notation
+total: 4.5e+4
+```
+
+### `Boolean`
+```yaml
+isDarkMode: false
+isDarkMode: False
+isDarkMode: FALSE
+```
+> **true**: &nbsp; `y`, `Y`, `Yes`, `YES`, `true`, `True`, `TRUE`, `on`, `On`, `ON`  
+> **false**: &nbsp; `n`, `N`, `No`, `NO`, `false`, `False`, `FALSE`, `off`, `Off`, `OFF`
+
+### `Null`
+```yaml
+username: 
+username: ~
+username: null
+username: Null
+username: NULL
+```
+
+### `Date & Timestamp`
+```yaml
+date: 2021-05-24
+canonical: 2021-05-24T02:59:43.1Z
+valid iso8601: 2021-05-24t21:59:43.10-05:00
+space separated: 2021-05-24 21:59:43.10 -5
+```
+
+### `Sequence`
+```yaml
+# using hyphens
+people:
+    - Elena
+    - James
+    - Olivia
+
+# inline
+people: [Elena, James, Olivia]
+```
+
+### Advanced Features
 
 <br />
 
@@ -80,5 +151,6 @@ You can always share information with us and we are looking forward to it.
 ## References
 [:bookmark_tabs:](https://www.codeproject.com/Articles/28720/YAML-Parser-in-C) **CODE PROJECT** &nbsp; <ins>YAML Parser in C#</ins>  
 [:bookmark_tabs:](https://www.c-sharpcorner.com/article/the-basics-of-yaml-in-5-minutes-or-less/) **C# Corner** &nbsp; <ins>The Basics Of YAML In 5 Minutes Or Less!</ins>  
+[:bookmark_tabs:](https://dev.to/paulasantamaria/introduction-to-yaml-125f) **DEV Community** &nbsp; <ins>Introduction to YAML</ins>  
 [:bookmark_tabs:](https://github.com/aaubry/YamlDotNet/) **YamlDotNet**   
 [:bookmark_tabs:](https://en.wikipedia.org/wiki/YAML) **WIKIPEDIA** &nbsp; <ins>YAML</ins>  

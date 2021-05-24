@@ -18,7 +18,6 @@ You can always share information with us and we are looking forward to it.
 - [What is the Yaml?](#what-is-the-yaml)
 - [What is different from other serialization formats?](#what-is-different-from-other-serialization-formats)
 - [How to use Yaml?](#how-to-use-yaml)
-- [YamlDotNet](#yamldotnet)
 
 <br />
 
@@ -209,10 +208,6 @@ explicit-int: !!int 3.2    # an integer
 explicit-str: !!str 30.25  # a string
 explicit-bool: !!bool yes  # a boolean
 ```
-<br />
-
-## _YamlDotNet_
-
 <br />
 
 ***

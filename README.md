@@ -137,7 +137,32 @@ people: [Elena, James, Olivia]
 
 ### `Nested Value`
 ```yaml
+Black Widow:
+    director: Cate Shortland
+    release-date: 2021-07-09
+    cast: [Scarlett Johansson, David Harbour, Florence Pugh, O-T Fagbenle, and Rachel Weisz]
+    overview: |
+        In Marvel Studios’ action-packed spy thriller “Black Widow,” Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. 
+        Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.
+```
 
+### `List of Objects`
+```yaml
+- Black Widow:
+    director: Cate Shortland
+    release-date: 2021-07-09
+    cast: [Scarlett Johansson, David Harbour, Florence Pugh, O-T Fagbenle, and Rachel Weisz]
+    overview: |
+        In Marvel Studios’ action-packed spy thriller “Black Widow,” Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. 
+        Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.
+        
+- Shang-Chi:
+    director: Destin Daniel Cretton
+    release-date: 2021-09-03
+    cast: [Simu Liu, Awkwafina, Tony Leung, Michelle Yeoh, Fala Chen, Meng’er Zhang, Florian Munteanu and Ronny Chieng]
+    overview: |
+        Marvel Studios' "Shang-Chi and The Legend of The Ten Rings" stars Simu Liu as Shang-Chi, who must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization. 
+        The film also stars Tony Leung as Wenwu, Awkwafina as Shang-Chi's friend Katy and Michelle Yeoh as Jiang Nan, as well as Fala Chen, Meng'er Zhang, Florian Munteanu and Ronny Chieng.
 ```
 
 ### Advanced Features

@@ -219,5 +219,3 @@ explicit-bool: !!bool yes  # a boolean
 [:bookmark_tabs:](https://dev.to/paulasantamaria/introduction-to-yaml-125f) **DEV Community** &nbsp; <ins>Introduction to YAML</ins>  
 [:bookmark_tabs:](https://github.com/aaubry/YamlDotNet/) **YamlDotNet**   
 [:bookmark_tabs:](https://en.wikipedia.org/wiki/YAML) **WIKIPEDIA** &nbsp; <ins>YAML</ins>  
-
-

@@ -135,6 +135,11 @@ people:
 people: [Elena, James, Olivia]
 ```
 
+### `Nested Value`
+```yaml
+
+```
+
 ### Advanced Features
 
 <br />

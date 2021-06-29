@@ -212,7 +212,20 @@ explicit-bool: !!bool yes  # a boolean
 <br />
 
 ## _YamlDotNet_
-TBD..
+YamlDotNet is a YAML library for netstandard and other .NET runtimes.
+
+YamlDotNet provides low level parsing and emitting of YAML as well as a high level object model similar to XmlDocument. A serialization library is also included that allows to read and write objects from and to YAML streams.
+
+### Installing
+Just install the YamlDotNet NuGet package:
+```
+PM> Install-Package YamlDotNet
+```
+You can also install YamlDotNet at Nuget Package Manager.   
+
+<img src="https://user-images.githubusercontent.com/74305823/123741413-fafd9d00-d8e4-11eb-943b-8daac56b28cb.png" width="500"/>
+
+
 
 <br />
 

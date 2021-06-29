@@ -25,7 +25,9 @@ You can always share information with us and we are looking forward to it.
 ## _What is the Yaml?_
 <img src="https://user-images.githubusercontent.com/74305823/118442059-09bd3580-b725-11eb-92b7-4e435714bcca.png" width="180"/>  
 
-**Yaml** is a human-readable data-serialization language. And it is commonly used for configuration files and in applications where data is being stored or transmitted. YAML was originally an acronym for '_Yet Another Markup Language_', but is now more commonly referred to as '**_YAML Ain't Markup Language_**'. Visit the [official YAML website](http://yaml.org/) for more information.
+**Yaml** is a human-readable data-serialization language. And it is commonly used for configuration files and in applications where data is being stored or transmitted. YAML was originally an acronym for '_Yet Another Markup Language_', but is now more commonly referred to as '**_YAML Ain't Markup Language_**'. 
+
+Visit the [official YAML website](http://yaml.org/) for more information.
 
 <br/>
 

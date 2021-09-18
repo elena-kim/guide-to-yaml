@@ -1,12 +1,25 @@
-# the-easiest-yaml
+<div align=center>
+  <h2>The Easiest Yaml</h2>
+  <br/>
+ 
+  <sub align="center">
+    이 레포지토리는 DevNcore팀이 관리하고 있습니다.
+  <br />
+  <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
+  </sub>
+ 
+  <br />
+  <br />
+ 
+  <p align="center">
+   <a href="https://github.com/devncore/the-easiest-yaml/stargazers"><img src="https://img.shields.io/github/stars/devncore/the-easiest-yaml" alt="Github Stars"></a>
+   <img src="https://img.shields.io/github/license/devncore/the-easiest-yaml" alt="License">
+   <a href="https://github.com/devncore/the-easiest-yaml/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/the-easiest-yaml" alt="Commits-per-month"></a>
+ </p>
+</div>
 
-<br>
-
-## 만든이 소개
-[DevNcore 오픈소스 팀](https://github.com/devncore/devncore)이 리드하고 있습니다.
-
-<br>
-
+  <br />
+  
 ## Overview
 - [What is the Yaml?](#what-is-the-yaml)
 - [What is different from other serialization formats?](#what-is-different-from-other-serialization-formats)

@@ -237,10 +237,15 @@ TBD...
 
 ***
 
-
 ## References
-[:bookmark_tabs:](https://www.codeproject.com/Articles/28720/YAML-Parser-in-C) **CODE PROJECT** &nbsp; <ins>YAML Parser in C#</ins>  
-[:bookmark_tabs:](https://www.c-sharpcorner.com/article/the-basics-of-yaml-in-5-minutes-or-less/) **C# Corner** &nbsp; <ins>The Basics Of YAML In 5 Minutes Or Less!</ins>  
-[:bookmark_tabs:](https://dev.to/paulasantamaria/introduction-to-yaml-125f) **DEV Community** &nbsp; <ins>Introduction to YAML</ins>  
-[:bookmark_tabs:](https://github.com/aaubry/YamlDotNet/) **YamlDotNet**   
-[:bookmark_tabs:](https://en.wikipedia.org/wiki/YAML) **WIKIPEDIA** &nbsp; <ins>YAML</ins>  
+📑 **CODE PROJECT** &nbsp; [YAML Parser in C#][1]  
+📑 **C# Corner** &nbsp; [The Basics Of YAML In 5 Minutes Or Less!][2]   
+📑 **DEV Community** &nbsp; [Introduction to YAML][3]  
+📑 **YamlDotNet** &nbsp; [GitHub][4]    
+📑 **WIKIPEDIA** &nbsp; [YAML][5]  
+
+[1]: https://www.codeproject.com/Articles/28720/YAML-Parser-in-C
+[2]: https://www.c-sharpcorner.com/article/the-basics-of-yaml-in-5-minutes-or-less/
+[3]: https://dev.to/paulasantamaria/introduction-to-yaml-125f
+[4]: https://github.com/aaubry/YamlDotNet/
+[5]: https://en.wikipedia.org/wiki/YAML

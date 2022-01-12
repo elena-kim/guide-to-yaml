@@ -1,29 +1,19 @@
-<div align=center>
-  <h2>The Easiest Yaml</h2>
-  <br/>
- 
-  이 레포지토리는 DevNcore팀이 관리하고 있습니다.
-  <br />
-  
-  <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
- 
-  <br />
- 
-  <p align="center">
-   <a href="https://github.com/devncore/the-easiest-yaml/stargazers"><img src="https://img.shields.io/github/stars/devncore/the-easiest-yaml" alt="Github Stars"></a>
-   <img src="https://img.shields.io/github/license/devncore/the-easiest-yaml" alt="License">
-   <a href="https://github.com/devncore/the-easiest-yaml/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/the-easiest-yaml" alt="Commits-per-month"></a>
- </p>
-</div>
+## The Easiest Yaml
+이 레포지토리는 DevNcore팀이 관리하고 있습니다.  
 
-  <br />
+<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
+ 
+| Star | License | Activity |
+|:----:|:-------:|:--------:|
+| <a href="https://github.com/devncore/the-easiest-yaml/stargazers"><img src="https://img.shields.io/github/stars/devncore/the-easiest-yaml" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/the-easiest-yaml" alt="License"> | <a href="https://github.com/devncore/the-easiest-yaml/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/the-easiest-yaml" alt="Commits-per-month"></a> |
+
+<br />
   
 ## Overview
 - [What is the Yaml?](#what-is-the-yaml)
 - [What is different from other serialization formats?](#what-is-different-from-other-serialization-formats)
 - [How to use Yaml?](#how-to-use-yaml)
 - [YamlDotNet](#yamldotnet)
-- [YAML파일 C#변환](#yaml)
 
 <br />
 
@@ -234,7 +224,7 @@ You can also install YamlDotNet at Nuget Package Manager.
 
 <br />
 
-### YAML 파일 C# 변환
+### _YAML 파일 C# 변환_
 
 #### `Nuget 패키지 설치 및 Using 정보`
 - YamlDotNet Nuget 설치

@@ -14,6 +14,7 @@
 - [What is different from other serialization formats?](#what-is-different-from-other-serialization-formats)
 - [How to use Yaml?](#how-to-use-yaml)
 - [YamlDotNet](#yamldotnet)
+- [Yaml File C# 변환](#yaml파일-csharp변환)
 
 <br />
 
@@ -224,7 +225,7 @@ You can also install YamlDotNet at Nuget Package Manager.
 
 <br />
 
-### _YAML 파일 C# 변환_
+### _YAML파일 Csharp변환_
 
 #### `Nuget 패키지 설치 및 Using 정보`
 - YamlDotNet Nuget 설치

@@ -245,7 +245,7 @@ You can also install YamlDotNet at Nuget Package Manager.
 
 <br />
 
-#### `Yaml 파일 C# 변환하기`
+#### Yaml 파일 C# 변환하기
 ```
 var deserializer = new DeserializerBuilder()
            .WithNamingConvention(CamelCaseNamingConvention.Instance)
@@ -255,7 +255,7 @@ var result = deserializer.Deserialize<List<ArticleMenuModel>>(strContent);
 
 ```
 
-#### `C# List Yaml 변환하기`
+#### C# List Yaml 변환하기
 
 ```C#
 string yaml;

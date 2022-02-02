@@ -6,7 +6,7 @@
  
 | Star | License | Activity |
 |:----:|:-------:|:--------:|
-| <a href="https://github.com/devncore/the-easiest-yaml/stargazers"><img src="https://img.shields.io/github/stars/devncore/the-easiest-yaml" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/the-easiest-yaml" alt="License"> | <a href="https://github.com/devncore/the-easiest-yaml/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/the-easiest-yaml" alt="Commits-per-month"></a> |
+| <a href="https://github.com/devncore/guide-to-yaml/stargazers"><img src="https://img.shields.io/github/stars/devncore/guide-to-yaml" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/guide-to-yaml" alt="License"> | <a href="https://github.com/devncore/guide-to-yaml/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/guide-to-yaml" alt="Commits-per-month"></a> |
 
 <br />
   

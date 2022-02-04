@@ -9,17 +9,8 @@
 | <a href="https://github.com/devncore/guide-to-yaml/stargazers"><img src="https://img.shields.io/github/stars/devncore/guide-to-yaml" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/guide-to-yaml" alt="License"> | <a href="https://github.com/devncore/guide-to-yaml/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/guide-to-yaml" alt="Commits-per-month"></a> |
 
 <br />
-  
-## Overview
-- [What is the Yaml?](#what-is-the-yaml)
-- [What is different from other serialization formats?](#what-is-different-from-other-serialization-formats)
-- [How to use Yaml?](#how-to-use-yaml)
-- [YamlDotNet](#yamldotnet)
-- [Yaml File C# 변환](#yaml파일-csharp변환)
-
 <br />
 
-## _What is the Yaml?_
 <img src="https://user-images.githubusercontent.com/74305823/118442059-09bd3580-b725-11eb-92b7-4e435714bcca.png" width="180"/>  
 
 **Yaml** is a human-readable data-serialization language. And it is commonly used for configuration files and in applications where data is being stored or transmitted. YAML was originally an acronym for '_Yet Another Markup Language_', but is now more commonly referred to as '**_YAML Ain't Markup Language_**'. 

@@ -13,9 +13,9 @@
 
 <img src="https://user-images.githubusercontent.com/74305823/118442059-09bd3580-b725-11eb-92b7-4e435714bcca.png" width="180"/>  
 
-**Yaml** is a human-readable data-serialization language. And it is commonly used for configuration files and in applications where data is being stored or transmitted. YAML was originally an acronym for '_Yet Another Markup Language_', but is now more commonly referred to as '**_YAML Ain't Markup Language_**'. 
+**Yaml**은 사람이 쉽게 읽을 수 있는 데이터 직렬화 양식으로, 주로 설정 파일과 데이터가 저장 또는 전송되는 응용 프로그램에 사용됩니다. 원래 YAML의 뜻은 **"또 다른 마크업 언어 (Yet Another Markup Language)"** 였으나, 오늘날 **"YAML은 마크업 언어가 아니다 (YAML Ain't Markup Language)"** 라는 뜻으로 더 많이 언급됩니다.
 
-Visit the [official YAML website](http://yaml.org/) for more information.
+더 많은 정보는 [YAML 공식 웹사이트](http://yaml.org/)를 참고하세요.
 
 <br/>
 

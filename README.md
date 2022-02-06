@@ -206,7 +206,7 @@ YamlDotNet is a YAML library for netstandard and other .NET runtimes.
 
 YamlDotNet provides low level parsing and emitting of YAML as well as a high level object model similar to XmlDocument. A serialization library is also included that allows to read and write objects from and to YAML streams.
 
-### Installing
+### NuGet 설치
 Just install the [YamlDotNet NuGet package](https://www.nuget.org/packages/YamlDotNet/):
 ```
 PM> Install-Package YamlDotNet
@@ -215,17 +215,13 @@ You can also install YamlDotNet at Nuget Package Manager.
 
 <img src="https://user-images.githubusercontent.com/74305823/123741413-fafd9d00-d8e4-11eb-943b-8daac56b28cb.png" width="500"/>
 
-<br />
+### Using 추가
+- `using YamlDotNet.Serialization` 
+- `using YamlDotNet.Serialization.NamingConventions`
 
-### _YAML파일 Csharp변환_
+<img src="https://user-images.githubusercontent.com/76234292/148657700-34fc264c-61e9-479c-b334-78d426375542.PNG" width="450"/>
 
-#### Nuget 패키지 설치 및 Using 정보
-
-| YamlDotNet Nuget 설치 | Using 추가 |
-|:----------|:----------|
-| ![image](https://user-images.githubusercontent.com/76234292/148646402-19d302c2-30ce-47e7-9c31-1da014fc550e.png) | `using YamlDotNet.Serialization` <br>  `using YamlDotNet.Serialization.NamingConventions` <br><br> ![yamlusing](https://user-images.githubusercontent.com/76234292/148657700-34fc264c-61e9-479c-b334-78d426375542.PNG)
-
-#### Yaml 파일 C# 변환하기
+### Yaml 파일 C# 변환하기 (Deserialize)
 ```C#
 var deserializer = new DeserializerBuilder()
            .WithNamingConvention(CamelCaseNamingConvention.Instance)
@@ -234,7 +230,7 @@ var deserializer = new DeserializerBuilder()
 var result = deserializer.Deserialize<List<ArticleMenuModel>>(strContent);
 ```
 
-#### C# List Yaml 변환하기
+### C# List Yaml 변환하기 (Serialize)
 
 ```C#
 string yaml;

@@ -219,7 +219,7 @@ You can also install YamlDotNet at Nuget Package Manager.
 
 ### _YAML파일 Csharp변환_
 
-#### `Nuget 패키지 설치 및 Using 정보`
+#### Nuget 패키지 설치 및 Using 정보
 - YamlDotNet Nuget 설치
 - using YamlDotNet.Serialization;
 - using YamlDotNet.Serialization.NamingConventions;

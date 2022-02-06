@@ -207,11 +207,12 @@ YamlDotNet is a YAML library for netstandard and other .NET runtimes.
 YamlDotNet provides low level parsing and emitting of YAML as well as a high level object model similar to XmlDocument. A serialization library is also included that allows to read and write objects from and to YAML streams.
 
 ### NuGet 설치
-Just install the [YamlDotNet NuGet package](https://www.nuget.org/packages/YamlDotNet/):
+콘솔창에 아래 명령어를 입력하여 패키지를 설치합니다.
 ```
 PM> Install-Package YamlDotNet
 ```
-You can also install YamlDotNet at Nuget Package Manager.   
+
+또는 아래와 같이 Nuget Package Manager를 통해 YamlDotNet 패키지를 설치할 수도 있습니다.   
 
 <img src="https://user-images.githubusercontent.com/74305823/123741413-fafd9d00-d8e4-11eb-943b-8daac56b28cb.png" width="500"/>
 

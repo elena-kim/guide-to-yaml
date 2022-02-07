@@ -196,8 +196,8 @@ explicit-bool: !!bool yes  # a boolean
 ```
 <br />
 
-## _YamlDotNet_
-YamlDotNet은 닷넷 스탠다드와 다른 닷넷 런타임을 위한 YAML 라이브러리입니다. 
+## YamlDotNet
+YamlDotNet은 닷넷 스탠다드와 기타 닷넷 런타임을 위한 YAML 라이브러리입니다. 
 
 YamlDotNet은 XmlDocument와 유사한 상위 수준의 객체 모델뿐만 아니라 YAML의 하위 수준의 구문 분석 기능을 제공합니다. 또한 개체를 읽고 쓸 수 있는 직렬화 라이브러리도 포함되어 있습니다.
 

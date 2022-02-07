@@ -80,7 +80,7 @@ count: 7
 # 실수형
 price: 32.05
 
-# 과학적 법표기법
+# 과학적 표기법
 total: 4.5e+4
 ```
 
@@ -152,8 +152,8 @@ Black Widow:
         The film also stars Tony Leung as Wenwu, Awkwafina as Shang-Chi's friend Katy and Michelle Yeoh as Jiang Nan, as well as Fala Chen, Meng'er Zhang, Florian Munteanu and Ronny Chieng.
 ```
 
-#### Indented delimiting
-> Because YAML primarily relies on outline indentation for structure, it is especially resistant to delimiter collision. YAML's insensitivity to quotation marks and braces in scalar values means one may embed XML, JSON or even YAML documents inside a YAML document by simply indenting it in a block literal (using `|` or `>`).
+#### 들여쓰기 구분 
+> YAML은 주로 구조의 들여쓰기에 의존하기 때문에 구분자 충돌 발생이 적습니다. YAML은 따옴표나 중괄호에 민감하지 않기 때문에 XML, JSON 또는 YAML 문서를 블록에 들여쓰기만 하면 YAML 문서 안에 포함할 수 있습니다 (`|` 또는 `>` 사용).
 ```yaml
 message: |
 
@@ -171,7 +171,7 @@ Item # inline comment
 ```
 
 #### 앵커 및 별칭
-> Node anchors mark a node for future reference, which allow us to reuse the node. To mark a node we use the `&` character, and to reference it we use `*`.
+> 향후 참조용으로 노드를 표시하여 노드를 재사용할 수 있습니다. 노드를 표시하기 위해 `&` 문자를 사용하고 참조하기 위해 `*`를 사용합니다. 
 ```yaml
 people:
     - first: &Elena
@@ -188,7 +188,7 @@ two: *James
 ```
 
 #### 명시적 데이터 유형
-> YAML autodetects the datatype of the entity, but sometimes we can cast the datatype explicitly by including the type before the value preceded by `!!`.
+> YAML은 엔터티의 데이터 형식을 자동으로 검색하지만, 값 앞에 `!!`의 형식을 포함하여 데이터 형식을 명시적으로 캐스트할 수도 있습니다. 
 ```yaml
 explicit-int: !!int 3.2    # an integer
 explicit-str: !!str 30.25  # a string
@@ -197,9 +197,9 @@ explicit-bool: !!bool yes  # a boolean
 <br />
 
 ## _YamlDotNet_
-YamlDotNet is a YAML library for netstandard and other .NET runtimes.
+YamlDotNet은 닷넷 스탠다드와 다른 닷넷 런타임을 위한 YAML 라이브러리입니다. 
 
-YamlDotNet provides low level parsing and emitting of YAML as well as a high level object model similar to XmlDocument. A serialization library is also included that allows to read and write objects from and to YAML streams.
+YamlDotNet은 XmlDocument와 유사한 상위 수준의 객체 모델뿐만 아니라 YAML의 하위 수준의 구문 분석 기능을 제공합니다. 또한 개체를 읽고 쓸 수 있는 직렬화 라이브러리도 포함되어 있습니다.
 
 ### NuGet 설치
 콘솔창에 아래 명령어를 입력하여 패키지를 설치합니다.

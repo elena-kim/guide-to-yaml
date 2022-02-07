@@ -19,7 +19,7 @@
 
 <br/>
 
-## _What is different from other serialization formats?_
+## 다른 직렬화 포맷들과 다른 점은?
 
 <table>
   <thead>
@@ -40,13 +40,13 @@
     </tr>
     <tr>
       <td>
-        YAML has many additional features lacking in JSON, including comments, extensible data types, relational anchors, strings without quotation marks, and mapping types preserving key order.
+        YAML에는 주석, 확장 가능한 데이터 유형, 관계형 앵커, 따옴표가 없는 문자열, 키 순서를 유지하는 매핑 유형 등 JSON에 없는 많은 추가 기능이 있습니다. 
       </td>
       <td>
-        YAML is much more complex compared to TOML - the YAML specification was pointed out to have 23,449 words, while the TOML specification had only 3,339 words.
+        YAML 설명서는 23,449개의 단어가 있는 반면, TOML 설명서는 3,339개의 단어로 구성되어 있습니다. 이러한 추가적인 설명과 YAML의 들여쓰기 구문 덕분에 TOML에 비해 덜 복잡한 방식으로 작성할 수 있습니다.
       </td>
       <td>
-        YAML lacks the notion of tag attributes that are found in XML. And YAML itself does not have XML's language-defined document schema descriptors that allow, for example, a document to self-validate. 
+        YAML은 주석 사용이 가능하며 개행, 공백으로 블록을 인식한다는 점에서 XML과 문법적으로 유사한 점이 많습니다. 다만, XML과 달리 태그를 사용하지 않고 공백 위주로 데이터를 구분하므로 한 줄로 작성할 수 없다는 특징이 있습니다.
       </td>
     </tr>
   </tbody>
@@ -54,11 +54,11 @@
 
 <br />
 
-## _How to use Yaml?_
-- [Basic Syntax](#basic-syntax)
-- [Advanced Features](#advanced-features)
+## YAML 사용법
+- [기본 문법](#기본-문법)
+- [차별화된 특징](#차별화된-특징)
 
-### Basic Syntax
+### 기본 문법
 #### `String`
 ```yaml
 # string without quotes
@@ -156,7 +156,7 @@ Black Widow:
 ```
 <br />
 
-### Advanced Features
+### 차별화된 
 #### `Indented delimiting`
 > Because YAML primarily relies on outline indentation for structure, it is especially resistant to delimiter collision. YAML's insensitivity to quotation marks and braces in scalar values means one may embed XML, JSON or even YAML documents inside a YAML document by simply indenting it in a block literal (using `|` or `>`).
 ```yaml

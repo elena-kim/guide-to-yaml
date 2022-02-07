@@ -156,7 +156,7 @@ Black Widow:
 ```
 <br />
 
-### 차별화된 
+### 차별화된 특징 
 #### `Indented delimiting`
 > Because YAML primarily relies on outline indentation for structure, it is especially resistant to delimiter collision. YAML's insensitivity to quotation marks and braces in scalar values means one may embed XML, JSON or even YAML documents inside a YAML document by simply indenting it in a block literal (using `|` or `>`).
 ```yaml

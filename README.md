@@ -55,19 +55,16 @@
 <br />
 
 ## YAML 사용법
-- [기본 문법](#기본-문법)
-- [차별화된 특징](#차별화된-특징)
 
-### 기본 문법
-#### `String`
+#### 문자열
 ```yaml
-# string without quotes
-title : The Easiest YAML
+# 따옴표 없는 문자열
+title : Guide to YAML
 
-# string with quotes
-title : 'The Easiest YAML'
+# 따옴표 있는 문자열
+title : 'Guide to YAML'
 
-# multiline string
+# 여러 줄의 문자열
 Demons : |
     When the days are cold
     And the cards all fold
@@ -75,19 +72,19 @@ Demons : |
     Are all made of gold
 ```
 
-#### `Numbers`
+#### 숫자
 ```yaml
-# integer
+# 정수형
 count: 7
 
-# float
+# 실수형
 price: 32.05
 
-# scientific notation
+# 과학적 법표기법
 total: 4.5e+4
 ```
 
-#### `Boolean`
+#### Boolean
 ```yaml
 isDarkMode: false
 isDarkMode: False
@@ -96,7 +93,7 @@ isDarkMode: FALSE
 > **true**: &nbsp; `y`, `Y`, `Yes`, `YES`, `true`, `True`, `TRUE`, `on`, `On`, `ON`  
 > **false**: &nbsp; `n`, `N`, `No`, `NO`, `false`, `False`, `FALSE`, `off`, `Off`, `OFF`
 
-#### `Null`
+#### Null
 ```yaml
 username: 
 username: ~
@@ -105,7 +102,7 @@ username: Null
 username: NULL
 ```
 
-#### `Date & Timestamp`
+#### 날짜 & 시간
 ```yaml
 date: 2021-05-24
 canonical: 2021-05-24T02:59:43.1Z
@@ -113,19 +110,19 @@ valid iso8601: 2021-05-24t21:59:43.10-05:00
 space separated: 2021-05-24 21:59:43.10 -5
 ```
 
-#### `Sequence`
+#### 시퀀스
 ```yaml
-# using hyphens
+# 하이픈
 people:
     - Elena
     - James
     - Olivia
 
-# inline
+# 인라인 
 people: [Elena, James, Olivia]
 ```
 
-#### `Nested Value`
+#### 중첩되는 값
 ```yaml
 Black Widow:
     director: Cate Shortland
@@ -136,7 +133,7 @@ Black Widow:
         Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.
 ```
 
-#### `List of Objects`
+#### 리스트
 ```yaml
 - Black Widow:
     director: Cate Shortland
@@ -154,10 +151,8 @@ Black Widow:
         Marvel Studios' "Shang-Chi and The Legend of The Ten Rings" stars Simu Liu as Shang-Chi, who must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization. 
         The film also stars Tony Leung as Wenwu, Awkwafina as Shang-Chi's friend Katy and Michelle Yeoh as Jiang Nan, as well as Fala Chen, Meng'er Zhang, Florian Munteanu and Ronny Chieng.
 ```
-<br />
 
-### 차별화된 특징 
-#### `Indented delimiting`
+#### Indented delimiting
 > Because YAML primarily relies on outline indentation for structure, it is especially resistant to delimiter collision. YAML's insensitivity to quotation marks and braces in scalar values means one may embed XML, JSON or even YAML documents inside a YAML document by simply indenting it in a block literal (using `|` or `>`).
 ```yaml
 message: |
@@ -169,13 +164,13 @@ message: |
         </blockquote>
 ```
 
-#### `Comments`
+#### 주석
 ```yaml
 # whole line comment
 Item # inline comment
 ```
 
-#### `Anchor and Alias`
+#### 앵커 및 별칭
 > Node anchors mark a node for future reference, which allow us to reuse the node. To mark a node we use the `&` character, and to reference it we use `*`.
 ```yaml
 people:
@@ -192,7 +187,7 @@ one: *Elena
 two: *James
 ```
 
-#### `Explicit type`
+#### 명시적 데이터 유형
 > YAML autodetects the datatype of the entity, but sometimes we can cast the datatype explicitly by including the type before the value preceded by `!!`.
 ```yaml
 explicit-int: !!int 3.2    # an integer

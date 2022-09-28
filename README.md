@@ -1,5 +1,3 @@
-## Guide to Yaml
-
 ## Yaml이란?
 
 <img src="https://user-images.githubusercontent.com/74305823/118442059-09bd3580-b725-11eb-92b7-4e435714bcca.png" width="180"/>  

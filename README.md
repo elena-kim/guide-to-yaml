@@ -1,16 +1,5 @@
 ## Guide to Yaml
 
-이 리포지토리는 Yaml의 기본적인 문법과 닷넷 환경에서의 사용법에 대해 기술한 리포지토리입니다. <br />
-
-<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
- 
-| Star | License | Activity |
-|:----:|:-------:|:--------:|
-| <a href="https://github.com/devncore/guide-to-yaml/stargazers"><img src="https://img.shields.io/github/stars/devncore/guide-to-yaml" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/guide-to-yaml" alt="License"> | <a href="https://github.com/devncore/guide-to-yaml/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/guide-to-yaml" alt="Commits-per-month"></a> |
-
-<br />
-<br />
-
 ## Yaml이란?
 
 <img src="https://user-images.githubusercontent.com/74305823/118442059-09bd3580-b725-11eb-92b7-4e435714bcca.png" width="180"/>  
